@@ -39,15 +39,20 @@ You can set multiple targets by repeating step 3. Adding multiple targets will a
 
 **Retrieve Obstacle Wall Position**
 ```cpp
-Wall *walls = socialForce->getWalls();
-wall->getStartPoint();
-wall->getEndPoint();
+vector<Wall *> walls = socialForce->getWalls();
+
+for (Wall *wall : walls) {
+    wall->getStartPoint();
+    wall->getEndPoint();
+}
 ```
 
 **Retrive Agent Position**
 ```cpp
 Agent *agents = socialForce->getCrowd();
-agent->getPosition();
+
+for (Agent *agent : agents)
+    agent->getPosition();
 ```
 
 ## Authors
