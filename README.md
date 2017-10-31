@@ -5,7 +5,7 @@ The *social force model* was originally introduced by [Helbing and Molnár (1995
 ## Prerequisites
 
 This project requires the following libraries.
-- [C++ Port of the *vecmath package*](https://github.com/egonw/vecmath)
+- [C++ Port of the *vecmath* Package](https://github.com/egonw/vecmath)
 - [Open Graphics Library (OpenGL)](https://www.opengl.org/)
 
 ## Authors
