@@ -7,3 +7,8 @@ The model was originally introduced by [Helbing and Molnár (1995)](https://doi.
 This project requires the following libraries.
 - [C++ Port of the *vecmath package*](https://github.com/egonw/vecmath)
 - [Open Graphics Library (OpenGL)](https://www.opengl.org/)
+
+## Authors
+
+- Fawwaz Mohd Nasir
+- Shamsul Mohamad
