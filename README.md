@@ -9,7 +9,7 @@ This project consists of three header files and four source files. *Core.cpp* is
 ### Prerequisites
 
 This project requires the following libraries.
-- [C++ Port of the *vecmath* Package](https://github.com/egonw/vecmath)
+- [C++ Port of the *vecmath* Package](http://objectclub.jp/download/vecmath_e)
 - [Open Graphics Library (OpenGL)](https://www.opengl.org/)
 
 This project also requires users to use compilers that support C++ 11.
