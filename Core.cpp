@@ -25,7 +25,7 @@ void drawAgents();
 void drawCylinder(float x, float y, float radius = 0.2, int slices = 15, float height = 0.5);
 void drawWalls();
 void showInformation();
-void drawText(float x, float y, char text[]);
+void drawText(float x, float y, const char text[]);
 void reshape(int width, int height);
 void normalKey(unsigned char key, int xMousePos, int yMousePos);
 float randomFloat(float lowerBound, float upperBound);
@@ -237,7 +237,7 @@ void showInformation() {
 	drawText(margin.x + 1.7F, margin.y - 0.9F, fpsStr);
 }
 
-void drawText(float x, float y, char text[]) {
+void drawText(float x, float y, const char text[]) {
 	glDisable(GL_LIGHTING);		// Disable lighting for proper display of 'drawText()'
 	glDisable(GL_DEPTH_TEST);	// Disable depth test for proper display of 'drawText()'
 
